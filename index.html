@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Parshant Kumar Singh | Portfolio</title>
+        <link rel="stylesheet" href="index.css" />
+        <script src="https://kit.fontawesome.com/f5e790dd99.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <nav id="header-nav">
+                <a href="index.html">
+                    <div class="logo">
+                        <h1><span>P</span>arshant</h1>
+                    </div>
+                </a>
+                <ul id="side-menu" class="collapsed">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!-- <div> -->
+                <button id="menu-toggle" class="fa-solid fa-bars" onclick="toggleMenu()"></button>
+                <!-- </div> -->
+            </nav>
+        </div>
+        <div id="home">
+            <div class="container">
+                <div class="header-text" id="introduction">
+                    <p>Full-Stack Developer | Spring Boot & React Enthusiast</p>
+                    <h1>Hi, I'm <span>Parshant <br />Kumar Singh</span></h1>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------------about----------------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/pcboi2.webp" alt="Parshant Kumar Singh">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>
+                            I’m a 3rd-year Computer Science & Engineering student at NIT Arunachal Pradesh (CGPA: 8.16).
+                            I
+                            specialize in building intelligent full-stack web applications using Spring Boot, React, and
+                            RESTful
+                            APIs. Whether it’s designing secure backends, building elegant UIs, or solving algorithmic
+                            challenges, I enjoy working at the intersection of logic and creativity.<br><br>
+                            I’ve solved over 950+ DSA problems across platforms like LeetCode, GFG, and Coding Ninjas,
+                            and have
+                            completed projects that blend strong backend logic with polished frontends. I also explore
+                            cloud
+                            tools, version control, and automation to improve development workflows.
+
+                        </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                            <p class="tab-links" onclick="opentab('coding-profile')">Coding Profile</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('soft-skills')">Soft Skills</p>
+                            <!-- <p class="tab-links" onclick="opentab('coursework')">Coursework</p> -->
+                        </div>
+
+                        <!-- <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Backend Development</span><br>Spring Boot, Spring Security, REST APIs, MySQL,
+                                    MongoDB
+                                </li>
+                                <br>
+                                <li><span>Frontend Development</span><br>React, Redux, HTML, CSS, Tailwind CSS,
+                                    Bootstrap</li>
+                                <br>
+                                <li><span>Dev Tools</span><br>Git, Docker, Postman, Swagger, AWS</li>
+                            </ul>
+                        </div> -->
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages</span><br>Java, Javascript, C, Python</li><br>
+                                <li><span>Web Frameworks & Libraries</span><br>Spring Boot, Spring Security, React.js,
+                                    Bootstrap,
+                                    Tailwind CSS
+                                </li><br>
+                                <li><span>Databases</span><br>MySQL, MongoDB</li><br>
+                                <li><span>Tools & Platforms</span><br>Git, Docker, Postman, Swagger, Maven, VS Code,
+                                    IntelliJ</li><br>
+                                <li><span>Cloud & DevOps</span><br>AWS (EC2 and S3), REST APIs, JWT, CI/CD (basic)</li>
+                                <br>
+                                <li><span>CS Fundamentals</span><br>OOPs, DBMS, OS, Networking, System Design (Basics)
+                                </li><br>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="coding-profile">
+                            <ul>
+                                <li><span>Geeks for Geeks </span>
+                                    <a href="https://www.geeksforgeeks.org/user/parshanv8if/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a><br>
+                                    Solved 500+ Medium/Hard DSA Problems. Among the top 6%
+                                </li><br>
+                                <li><span>LeetCode </span>
+                                    <a href="https://leetcode.com/u/singhprashantkumar210/"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a><br>
+                                    Solved 450+ Medium/Hard Problems
+                                </li><br>
+                                <!-- <li><span>Coding Ninjas</span>
+                                    <a
+                                        href="https://www.naukri.com/code360/profile/8eaf6e82-ca60-45a0-a2a2-f2a8e65dc072"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a><br>
+                                    Solved 160+ Java Questions
+                                </li><br> -->
+                                <li><span>GitHub </span>
+                                    <a href="https://github.com/parsh05"><i
+                                            class="fa-solid fa-arrow-up-right-from-square"></i></a><br>
+                                    End-to-End Full-stack projects
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>B.Tech (2022 – Present)</span><br>
+                                    Computer Science & Engineering, NIT Arunachal Pradesh<br>
+                                    <b>CGPA: 8.16</b>
+                                </li><br>
+                                <li>
+                                    <span>12th (2020 – 2022)</span><br>
+                                    I.Sc., Anugrah Narayan College, Patna, Bihar<br>
+                                    <b>Percentage: 84.4%</b>
+                                </li><br>
+                                <li>
+                                    <span>10th (2018 – 2020)</span><br>
+                                    C.C.S. Sr. Secondary School, Gurugram, Haryana<br>
+                                    <b>Percentage: 88.4%</b>
+                                </li><br>
+                                <li>
+                                    <span>Aspire Leaders Program (2024)</span><br>
+                                    Academic and leadership program supported by HarvardX, aimed at empowering students
+                                    from underserved
+                                    communities. Selected among applicants from over 100 countries.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="soft-skills">
+                            <ul>
+                                <li>
+                                    <span>Team Collaboration</span><br>
+                                    Worked effectively in diverse project teams; dependable and adaptable during
+                                    hackathons and research
+                                    internships.
+                                </li><br>
+
+                                <li>
+                                    <span>Public Speaking</span><br>
+                                    Delivered tech talks and represented college clubs during events and seminars.
+                                </li><br>
+
+                                <li>
+                                    <span>Leadership & Volunteering</span><br>
+                                    Core team member of Coding Pundit, the official coding society of my college;
+                                    mentored juniors in DSA and project development;
+                                    organized multiple
+                                    coding workshops.<br><br>
+                                    Coordinated the coding contest during <b>Atulyam</b> (annual cultural fest) and
+                                    <b>Addovedi</b> (tech fest)
+                                    — held as a combined festival in 2025.
+                                </li><br>
+                            </ul>
+                        </div>
+
+                        <!-- <div class="tab-contents" id="soft-skills">
+                            <ul>
+                                <li>
+                                    <span>Team Collaboration</span><br>
+                                    Worked effectively in diverse project teams; dependable and adaptable during
+                                    hackathons and research
+                                    internships.
+                                </li><br>
+
+                                <li>
+                                    <span>Public Speaking</span><br>
+                                    Delivered tech talks and represented college clubs during events and seminars.
+                                </li><br>
+
+                                <li>
+                                    <span>Leadership & Volunteering</span><br>
+                                    Core team member of Coding Pundit, the official coding society of my college;
+                                    mentored juniors in DSA and project development;
+                                    organized multiple
+                                    coding workshops.<br><br>
+                                    Coordinated the coding contest during <b>Atulyam</b> (annual cultural fest) and
+                                    <b>Addovedi</b> (tech fest)
+                                    — held as a combined festival in 2025.
+                                </li><br>
+                            </ul>
+                        </div> -->
+
+                        <!-- <div class="tab-contents" id="coursework">
+                            <ul>
+                                <li>Data Structures & Algorithms</li>
+                                <li>Operating Systems</li>
+                                <li>Database Management Systems</li>
+                                <li>Computer Networks</li>
+                                <li>Software Engineering</li>
+                                <li>Machine Learning & Artificial Intelligence</li>
+                            </ul>
+                        </div> -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--     /* --------------------Services-------------------------------------------- */-->
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>FRONTEND DEVELOPMENT</h2>
+                        <p>
+                            <b>1. </b>Built responsive UIs using React.js, Redux, HTML/CSS, Tailwind &
+                            Bootstrap.<br><br>
+                            <b>2. </b>Developed quiz and shopping platforms with modern UI libraries.<br><br>
+                            <b>3. </b>Proficient in component-based architecture and client-side routing.
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-server"></i>
+                        <h2>BACKEND DEVELOPMENT</h2>
+                        <p>
+                            <b>1. </b>Experienced with Spring Boot, JPA, Spring Security & RESTful APIs.<br><br>
+                            <b>2. </b>Designed scalable microservices and integrated MySQL/MongoDB.<br><br>
+                            <b>3. </b>Worked on JWT authentication, Swagger docs, and Dockerized backends.
+                        </p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>DBMS & System Design</h2>
+                        <p>
+                            <b>1. </b>Proficient in MySQL and MongoDB for designing normalized & scalable
+                            schemas.<br><br>
+                            <b>2. </b>Hands-on experience with ER diagrams, indexing, joins, transactions & ACID
+                            properties.<br><br>
+                            <b>3. </b>Familiar with distributed system concepts, normalization & basic query
+                            optimization.
+                        </p>
+                    </div>
+                    <!-- <div>
+                        <i class="fa-brands fa-java"></i>
+                        <h2>DATA STRUCTURES & ALGORITHMS</h2>
+                        <p>
+                            <b>1. </b>Solved 950+ DSA problems (LeetCode, GFG, Coding Ninjas).<br><br>
+                            <b>2. </b>Strong grasp on arrays, trees, graphs, DP, and recursion.<br><br>
+                            <b>3. </b>Proficient in Java; also familiar with Python and C++.
+                        </p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------------Experience Section---------------------------- -->
+        <div id="experience">
+            <div class="container">
+                <h1 class="sub-title">Work Experience</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h2>Summer Research Intern</h2>
+                        <p><b>Institute:</b> NIT Patna<br>
+                            <b>Duration:</b> June 2024 – July 2024<br><br>
+                        <h3>
+                            <ul>
+                                <li>Contributed to Designing a Top-K High-Average Utility Itemset algorithm to optimize
+                                    stock portfolio
+                                    selection.</li>
+                                <br>
+                                <li>
+                                    Analyzed stock data to identify optimal investment choices, leveraging data mining
+                                    techniques.
+                                </li>
+                                <br>
+                                <li>Improved precision by 15% using data analytics and advanced algorithm design.</li>
+                            </ul>
+                        </h3>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- -------------------------Achievements Section---------------------------- -->
+        <div id="achievements">
+            <div class="container">
+                <h1 class="sub-title">Achievements</h1>
+                <div class="services-list">
+
+                    <div>
+                        <i class="fa-solid fa-trophy" style="color: #ffc107;"></i>
+                        <h2>GFG Contest Rankings</h2>
+                        <p>
+                            Secured global ranks #138 and #167 among 33,566+ participants in GeeksforGeeks Weekly
+                            Contests—ranking in the top 6%.
+                        </p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-certificate" style="color: #28a745;"></i>
+                        <h2>Reliance Foundation Scholar</h2>
+                        <p>
+                            Awarded the Reliance Foundation Scholarship, recognizing academic excellence and leadership
+                            among
+                            India's top 5,000 students.
+                        </p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-hand-holding-heart" style="color: #e83e8c;"></i>
+                        <h2>Veena Upendra Scholarship</h2>
+                        <p>
+                            Recipient of the Veena Upendra Scholarship, a private initiative supporting the education of
+                            economically underprivileged students.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ---------------------Portfolio------------------------------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img alt=""
+                            src="https://www.shutterstock.com/shutterstock/photos/2209746085/display_1500/stock-vector-template-or-mockup-as-for-product-placement-on-smartphone-online-shopping-application-many-2209746085.jpg">
+                        <div class="layer">
+                            <h3>Shopping Cart System</h3>
+                            <p>Built a Spring Boot-based e-commerce system with secure login, product catalog, cart, and
+                                order workflows.</p>
+                            <a href="https://github.com/parsh05/Shopping-Cart-SBMS" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square" style="color: #f11e5d;"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img alt="" src="/images/ai-email-reply.jpg" height="300">
+                        <div class="layer">
+                            <h3>Email Reply Generator (AI)</h3>
+                            <p>Chrome extension + Spring Boot app that uses Gemini API to auto-generate professional
+                                email responses.</p>
+                            <a href="https://github.com/parsh05/email-writer-sb" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square" style="color: #f11e5d;"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/quiz.png" height="400" alt="">
+                        <div class="layer">
+                            <h3>QuizUp – Quiz Platform</h3>
+                            <p>Built with React, Tailwind & Chart.js. Features include result analytics, animations &
+                                multilingual support via
+                                Google Translate API.</p>
+                            <a href="https://github.com/parsh05/Quiz-App-main" target="_blank"><i
+                                    class="fa-solid fa-arrow-up-right-from-square" style="color: #f11e5d;"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="btn" href="https://github.com/parsh05" target="_blank">See more on GitHub</a>
+            </div>
+        </div>
+        <!-- ------------------------------Contact --------------------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>parshant0508@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> 9341146465</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/parshant05/"><i class="fa-brands fa-linkedin"
+                                    style="color: #f6fafe;"></i></a>
+                            <!-- <a href=""><i class="fa-brands fa-x-twitter" style="color: #0e94fb;"></i></a> -->
+                            <a href="http://discordapp.com/users/1147609231596474539"><i class="fa-brands fa-discord"
+                                    style="color: #B197FC;"></i></a>
+                        </div>
+                        <a href="pdf/Parshant-Kumar-Singh-Resume .pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright <i class="fa-regular fa-copyright fa-2xs"></i> Parshant. Made with <i
+                        class="fa-solid fa-heart"></i>
+                </p>
+            </div>
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+            <!-- <script>
+                var sidemenu = document.getElementById("side-menu");
+                function openmenu() {
+                    sidemenu.style.right = "0px";
+                }
+                function closemenu() {
+                    sidemenu.style.right = "-200px";
+                }
+            </script> -->
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbz9HV4j6knowbV3mYXeW-aqVBZyJQgRnTByAB6uz7D6GmM9pdZl36MkmONaTS0r-OnewQ/exec';
+                const form = document.forms['submit-to-google-sheet'];
+                const msg = document.getElementById("msg");
+                form.addEventListener('submit', e => {
+                    e.preventDefault();
+                    fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+                        .then(response => {
+                            msg.innerHTML = "Message sent successfully";
+                            setTimeout(function () {
+                                msg.innerHTML = "";
+                            }, 2000);
+                            form.reset();
+                        })
+                        .catch(error => console.error('Error!', error.message));
+                });
+
+                // ----------------
+                const sidemenu = document.getElementById("side-menu");
+                const toggleBtn = document.getElementById("menu-toggle");
+
+                function toggleMenu() {
+                    sidemenu.classList.toggle("collapsed");
+                    toggleBtn.classList.toggle("fa-bars");
+                    toggleBtn.classList.toggle("fa-xmark");
+                }
+
+            </script>
+    </body>
+
+</html>
