@@ -24,13 +24,13 @@ body {
   background-image: url(images/top-view-workspace-with-laptop-notebook_23-2148430831.avif);
   background-size: cover;
 }
-#introduction{
+#introduction {
   padding-top: 32px;
 }
 
 #header {
   width: 100%;
-  max-height: 8.25vh;
+  max-height: 8.5vh;
   background-color: #080808;
   background-image: url(images/header-bg.PNG);
   background-size: 50%;
@@ -108,7 +108,7 @@ nav ul li a:hover::after {
   margin-top: 20px;
 }
 
-#menu-toggle{
+#menu-toggle {
   display: none;
 }
 
@@ -247,6 +247,10 @@ nav ul li a:hover::after {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
+}
+.work-list a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .work {
@@ -474,7 +478,7 @@ form .btn2 {
   }
 
   .header-text {
-    margin-top: 0; 
+    margin-top: 0;
     /* text-align: center; */
   }
 
@@ -519,7 +523,7 @@ form .btn2 {
   .tab-links {
     font-size: 16px;
   }
- 
+
   .contact-left {
     flex-basis: 100%;
   }
@@ -533,4 +537,3 @@ form .btn2 {
   margin-top: -40px;
   display: block;
 }
-
